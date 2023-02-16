@@ -1,0 +1,25 @@
+ALGORITHM proapelle
+PROCEDURE PV(u[],v[]:INTEGER);
+VAR
+    i:integer;
+    j:integer;
+    ps:integer;
+BEGIN
+    FOR i FROM 0 TO n-1 STEP 1  DO
+    FOR j FROM 0 TO j-1 STEP 1  DO
+    write("donner l élement" i+1"de la vecteur V")
+    read (v[i]);
+    write("donner l élement" i+1"de la vecteur U")
+    read (U[j]);
+END_FOR
+END_FOR
+    pv=0;
+    FOR i FROM 0 TO i-1 STEP 1  DO
+    ps = v(i) * u(j);
+    IF (ps=0) THEN
+    write("les vecteurs sont orthogonaux")
+    ELSE
+    write("les vecteurs ne sont pas orthogonaux")
+    END_IF
+    END_FOR
+    END

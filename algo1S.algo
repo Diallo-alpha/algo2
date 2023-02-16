@@ -1,0 +1,21 @@
+ALGORITHM compare
+VAR
+set1[], set2[]:INTEGER
+i,j,s:INTEGER
+    set_declarations
+BEGIN;
+write(set1)
+read(set1)
+write(set2)
+read(set2)
+FOR i FROM 0 TO i-1 STEP 1  DO
+FOR j FROM 0 TO j-1 STEP 1  DO
+IF (set1[i] != set2[j]) THEN
+s=set1[i]+set2[j]
+ELSE
+write("il n exist pas d element distint")
+END_IF
+END_FOR
+END_FOR
+write("la somme des elements distincts" s);
+END
